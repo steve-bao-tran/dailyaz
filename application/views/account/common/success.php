@@ -1,0 +1,1 @@
+<div class="container"><div id="message"><ul class="message"><li>Đăng ký tài khoản mới thành công.</li></ul></div></div>

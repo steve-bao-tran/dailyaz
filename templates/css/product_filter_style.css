@@ -1,0 +1,80 @@
+/* product_filter_style.css */
+.blockstyle{
+	clear:both;
+	padding-top:30px;
+}
+.blockstyle .t{
+	text-align:center;
+	padding-bottom:25px;
+}
+.blockstyle .t h2{
+	font-size:30px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.blockstyle .t p{
+	font-size:17px;
+	margin-top:0;
+	padding-left:10px;
+	padding-right:10px;
+}
+.blockstyle .filterList{
+	margin:0;
+	padding:0;
+	margin-left:-7px;
+}
+.blockstyle .filterList .item{
+	padding:0;
+	margin-bottom:7px;
+	padding-left:7px;
+	position:relative;
+}
+.blockstyle .filterList .item .bg-hover{
+	background:none;
+	top:0;
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:7px;
+	z-index:2;
+	transition: all 0.4s ease-out 0s;
+	display:none !important;
+}
+.blockstyle .filterList .item img{
+	transition: all 0.3s ease-out 0s;
+	width:100%;
+}
+.blockstyle .filterList .item img:hover{
+	opacity: 0.7;
+}
+.blockstyle .filterList .item:hover .bg-hover{
+	background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+}
+.blockstyle .filterList .item .i{
+	position:absolute;
+	left:0;
+	right:0;
+	top:50%;
+	transform: translateY(-50%);
+	text-align:center;
+	display:none;
+	z-index:3;
+	display:none !important;
+	
+}
+.blockstyle .filterList .item .i a{
+	border:3px solid #d3d3d4;
+	color:#d3d3d4;
+	font-size:30px;
+	display:inline-block;
+	padding:3px 15px;
+	text-decoration:none;
+	border-radius:3px;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 2px #666;
+	transition: all 0.2s ease-out 0s;
+}
+.blockstyle .filterList .item:hover .i{
+	display:block;
+	
+}

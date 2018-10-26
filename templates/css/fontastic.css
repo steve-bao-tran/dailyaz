@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "dashboard";
+  src:url("../fonts/dashboard.eot");
+  src:url("../fonts/dashboard.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/dashboard.woff") format("woff"),
+    url("../fonts/dashboard.ttf") format("truetype"),
+    url("../fonts/dashboard.svg#dashboard") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "dashboard" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "dashboard" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\62";
+}
+.icon-form:before {
+  content: "\61";
+}
+.icon-list:before {
+  content: "\63";
+}
+.icon-presentation:before {
+  content: "\65";
+}
+.icon-bill:before {
+  content: "\66";
+}
+.icon-check:before {
+  content: "\67";
+}
+.icon-list-1:before {
+  content: "\68";
+}
+.icon-padnote:before {
+  content: "\69";
+}
+.icon-pencil-case:before {
+  content: "\6a";
+}
+.icon-user:before {
+  content: "\6b";
+}
+.icon-bars:before {
+  content: "\6c";
+}
+.icon-line-chart:before {
+  content: "\70";
+}
+.icon-flask:before {
+  content: "\6d";
+}
+.icon-grid:before {
+  content: "\6e";
+}
+.icon-picture:before {
+  content: "\6f";
+}
+.icon-website:before {
+  content: "\71";
+}
+.icon-screen:before {
+  content: "\72";
+}
+.icon-interface-windows:before {
+  content: "\73";
+}
+.icon-clock:before {
+  content: "\74";
+}
+.icon-rss-feed:before {
+  content: "\75";
+}
+.icon-mail:before {
+  content: "\64";
+}
+.icon-ios-email-outline:before {
+  content: "\76";
+}
+.icon-paper-airplane:before {
+  content: "\77";
+}
+.icon-ios-email:before {
+  content: "\78";
+}
+.icon-page:before {
+  content: "\41";
+}
+.icon-close:before {
+  content: "\79";
+}
+.icon-search:before {
+  content: "\7a";
+}
+
+/* BẢO THÊM */
+.icon-finance-timer {
+content: "\62";
+}
+.icon-finance-call-in {
+content: "\63";
+}
+.icon-finance-mail {
+content: "\64";
+}
+.icon-finance-close {
+content: "\65";
+}
+.icon-finance-bars {
+content: "\66";
+}
+.icon-finance-arrow-down {
+content: "\67";
+}
+.icon-finance-arrow-left {
+content: "\68";
+}
+.icon-finance-arrow-right {
+content: "\69";
+}
+.icon-finance-arrow-up {
+content: "\6a";
+}
+.icon-500px {
+content: "\6b";
+}
+.icon-behance {
+content: "\6c";
+}
+.icon-behance-square {
+content: "\6d";
+}
+.icon-codepen {
+content: "\6e";
+}
+.icon-digg {
+content: "\6f";
+}
+.icon-dropbox {
+content: "\70";
+}
+.icon-dribbble {
+content: "\71";
+}
+.icon-drupal {
+content: "\72";
+}
+.icon-deviantart {
+content: "\73";
+}
+.icon-facebook {
+content: "\75";
+}
+.icon-facebook-official {
+content: "\76";
+}
+.icon-facebook-square {
+content: "\77";
+}
+.icon-git {
+content: "\78";
+}
+.icon-git-square {
+content: "\79";
+}
+.icon-github {
+content: "\7a";
+}
+.icon-github-alt {
+content: "\41";
+}
+.icon-github-square {
+content: "\42";
+}
+.icon-google {
+content: "\43";
+}
+.icon-google-plus {
+content: "\44";
+}
+.icon-google-plus-square {
+content: "\45";
+}
+.icon-linkedin-square {
+content: "\46";
+}
+.icon-linkedin {
+content: "\47";
+}
+.icon-instagram {
+content: "\49";
+}
+.icon-pinterest-square {
+content: "\4a";
+}
+.icon-pinterest-p {
+content: "\4b";
+}
+.icon-pinterest {
+content: "\4c";
+}
+.icon-reddit {
+content: "\4d";
+}
+.icon-reddit-square {
+content: "\4e";
+}
+.icon-rss-square {
+content: "\4f";
+}
+.icon-rss {
+content: "\50";
+}
+.icon-skype {
+content: "\51";
+}
+.icon-soundcloud {
+content: "\52";
+}
+.icon-steam {
+content: "\53";
+}
+.icon-steam-square {
+content: "\54";
+}
+.icon-twitter {
+content: "\57";
+}
+.icon-twitter-square {
+content: "\58";
+}
+.icon-tumblr {
+content: "\59";
+}
+.icon-tumblr-square {
+content: "\5a";
+}
+.icon-trello {
+content: "\30";
+}
+.icon-vk {
+content: "\31";
+}
+.icon-vimeo-square {
+content: "\32";
+}
+.icon-vimeo {
+content: "\33";
+}
+.icon-vine {
+content: "\34";
+}
+.icon-weibo {
+content: "\35";
+}
+.icon-weixin {
+content: "\36";
+}
+.icon-whatsapp {
+content: "\37";
+}
+.icon-youtube-square {
+content: "\38";
+}
+.icon-youtube-play {
+content: "\39";
+}
+.icon-youtube {
+content: "\21";
+}
+.icon-yelp {
+content: "\22";
+}
+.icon-xing-square {
+content: "\23";
+}
+.icon-wordpress {
+content: "\25";
+}
+.icon-yahoo {
+content: "\74";
+}
+.icon-social-yahoo {
+content: "\48";
+}
+.icon-finance-tags:before {
+content: "\55";
+}
+.icon-finance-map-marker {
+content: "\56";
+}
+.icon-finance-search {
+content: "\24";
+}
+.icon-finance-check-mark {
+content: "\61";
+}
+.icon-finance-trophy {
+content: "\26";
+}
+.icon-finance-coffee {
+content: "\27";
+}
+.icon-finance-crown {
+content: "\29";
+}
+.icon-finance-clock {
+content: "\28";
+}
+.icon-finance-quote {
+content: "\2c";
+}
+.icon-graphic {
+content: "\2a";
+}
+.icon-airplane {
+content: "\2b";
+}
+.icon-courthouse {
+content: "\2d";
+}
+.icon-truck {
+content: "\2e";
+}
+.icon-cart {
+content: "\2f";
+}
+.icon-lamp {
+content: "\3a";
+}
+.icon-finance-goods {
+content: "\3b";
+}
+.icon-finance-airplane {
+content: "\3c";
+}
+.icon-finance-bag {
+content: "\3d";
+}
+.icon-finance-shop {
+content: "\3e";
+}
+.icon-finance-thunder {
+content: "\3f";
+}
+.icon-finance-chart {
+content: "\40";
+}
+.icon-finance-plus {
+content: "\5b";
+}
+.icon-finance-paper-plane {
+content: "\5d";
+}
+.icon-finance-checkmark-1 {
+content: "\5e";
+}
+.icon-finance-checkmark-2 {
+content: "\5f";
+}

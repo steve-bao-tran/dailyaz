@@ -1,0 +1,259 @@
+/* default.css */
+/*****************************/
+/*****************************/
+del{ color:#999;}
+div.product-quick-view{
+	padding:5px; text-align:left;
+}
+div.product-quick-view a.quick-view{
+	background: #fff url(../images/xem-nhanh.png) no-repeat center;
+	width:110px;
+	height:26px;
+	position:absolute;
+	z-index:999;
+	margin-top:80px;
+	margin-left:25px;
+	display:none;
+	border:1px solid #CCC;
+	padding:1px;
+}
+div.compare-buttom{
+	color:#039;
+	font-size:11px;
+	text-align:center;
+}
+div.compare-buttom a{
+	color:#039;
+}
+
+/* icons */
+.thumb .icon-0{
+	margin:-10px 0 0 -10px;
+}
+
+.thumb .icon-1{
+	margin:-10px 0 0 180px;
+}
+
+.thumb .new-icon{
+	position:absolute;
+	float:left;
+	/*margin:-10px 0 0 75px;*/
+	z-index:1;
+	width:51px;
+	height:52px;
+	background:url(../images/new.gif) no-repeat center;
+}
+.thumb .hot-icon{
+	position:absolute;
+	float:left;
+	/*margin:-10px 0 0 -10px;*/
+	z-index:1 !important;
+	width:53px;
+	height:54px;
+	background:url(../images/hot.gif) no-repeat center;
+}
+.thumb .saleoff-icon{
+	position:absolute;
+	float:left;
+	/*margin:-10px 0 0 -10px;*/
+	z-index:1 !important;
+	width:53px;
+	height:54px;
+	background:url(../images/sale_off.gif) no-repeat center;
+}
+
+/* product categories */
+div.product-cat-list .item{
+	text-align:center;
+	margin-bottom:20px;
+	
+	padding-left: 10px;
+    padding-right: 10px;
+}
+div.product-cat-list .item .thumb{
+	padding:0 0 0 0;
+	text-align:center;
+	height:auto;
+	
+}
+div.product-cat-list .item .thumb img{
+	width:100%;
+	transition: all 200ms ease 0s;
+	border:1px solid #ddd;
+	box-sizing: border-box;
+}
+div.product-cat-list .item h3{
+	color:#bf1724;
+	font-size:13px;
+	position:absolute;
+	height:35px;
+	line-height:35px;
+	float:left;
+	margin-top:-35px;
+	opacity: 0.65;
+	background:#000;
+	color:#FFF;
+	text-transform:uppercase;
+	padding:0 10px;
+	transition: all 200ms ease 0s;
+	min-width:60%;
+}
+div.product-cat-list .item h3:hover{
+	background:#996533;
+}
+.button_1, .button_2{
+	background:#3399ff url(../images/button-1.png) no-repeat left top;
+	color:#FFF;
+	border:none;
+	border-radius: 2px;
+	font-weight:bold;
+	text-transform:uppercase;
+	height:35px;
+	padding-top:0;
+	padding-bottom:0;
+	transition: all 300ms ease 0s;
+}
+.button_2{
+	background:#ff9900 url(../images/button-2.png) no-repeat left top;
+}
+
+.button_1 span, .button_2 span{
+	display:block;
+	background:url(../images/update.png) no-repeat left;
+	height:33px;
+	line-height:33px;
+	white-space:nowrap;
+	padding-left:25px;
+	padding-right:10px;
+	color:#FFF;
+}
+.button_2 span{
+	background:url(../images/play-icon.png) no-repeat left;
+}
+.button_1:hover, .button_2:hover{
+	background: #000;
+}
+
+
+
+/* browse_2 */
+.productcontent .browse_2 div.title{
+	border-bottom:1px solid #999;
+	margin-bottom:15px;
+}
+.productcontent .browse_2 div.title h1, .productcontent .browse_2 div.title h2{
+	background: url(../images/star-arrow.png) no-repeat scroll 0 10px;
+    margin: 0;
+    padding: 5px 0 0 0px;
+	float:left;
+	font-size:15px;
+	color:#000;
+	border:none;
+}
+.productcontent .browse_2 div.title div.sort{
+	float:right;
+	margin-top:5px;
+}
+.productcontent .browse_2 div.title div.break{
+	height:1px;
+}
+/* */
+.productcontent h1.heading1, .productcontent h2.heading1{
+	background: url(../images/groupcat.title-bg.png) repeat-x top;
+	border-left:3px solid #ffa000;
+	font-size:15px;
+	height:19px;
+	line-height:19px;
+	vertical-align:middle;
+	color:#000;
+	margin:0;
+	padding:0;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+.productcontent h1.heading1 span, .productcontent h2.heading1 span{
+	background:#FFF;
+	height:19px;
+	float:left;
+	padding:0 10px;
+}
+
+.productcontent .completed .inner{
+	font-size:17px;
+}
+.productcontent .completed h1{
+	color:#ff3333;
+	font-size:20px;
+	text-transform:uppercase;
+}
+.productcontent .completed .tieptucmuahang{
+	display:inline-block;
+	height:32px;
+	color:#FFF;
+	background: url(../images/tieptucmuahang.png) no-repeat;
+	line-height:32px;
+	font-weight:bold;
+	font-size:14px;
+	padding-left:55px;
+	padding-right:20px;
+	box-sizing: border-box;
+	text-transform:uppercase;
+	text-decoration:none;
+	margin-bottom:10px;
+}
+.productcontent .completed .gohome{
+	display:inline-block;
+	height:32px;
+	color:#ff3333;
+	border:1px solid #f44336;
+	background: url(../images/home-red.png) no-repeat right;
+	line-height:30px;
+	font-weight:bold;
+	font-size:14px;
+	box-sizing: border-box;
+	padding-right:35px;
+	padding-left:15px;
+	margin-left:25px;
+	text-transform:uppercase;
+	text-decoration:none;
+	
+}
+.productcontent .completed .gohome:hover, .productcontent .completed .tieptucmuahang:hover{
+	color:#000;
+}
+a.giftpromt{
+	background:#ebebeb url(../images/gift.png) no-repeat left;
+	padding:7px 10px 7px 55px;
+	border-radius: 8px;
+	margin-bottom:15px;
+	display:block;
+	color:inherit;
+	text-decoration:none;
+	transition: all 300ms ease 0s;
+	min-height:53px;
+}
+.pcart a.giftpromt, .checkout a.giftpromt{
+	font-weight:bold;
+	padding-top:14px;
+}
+#button-giftprmt a.giftpromt{
+	display:inline-block;
+	padding-top:5px;
+	padding-bottom:2px;
+	padding-left:35px;
+	background-image:url(../images/gift-min.png);
+	min-height:35px;
+	max-width:300px;
+	font-size:12px;
+	font-weight:normal;
+	line-height:1.2;
+}
+.pcart .cshopping, #button-giftprmt a.giftpromt{
+	float:left;
+}
+a.giftpromt:hover{
+	background-color:#CCC;
+}
+
+

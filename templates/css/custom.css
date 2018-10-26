@@ -1,0 +1,141 @@
+/* your styles go here */
+
+.icon-bars{
+    font-size:30px;
+}
+
+.btn-add {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float: right;
+    text-align:center;
+    height: 30px;    
+    padding: 4px 10px;
+    margin-left:2px;
+}
+
+.btn-del {
+    color: red;
+    font-size: 14px;
+    text-align:center;
+    border:none;
+}
+
+.btn-create{
+    border-radius: 5px;
+}
+
+.btn-reset{
+    border-radius: 5px;
+}
+
+.btn-cancel{
+    border-radius: 5px;
+}
+
+.btn-active {
+    color: green;
+    font-size: 14px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.btn-unactive {
+    color: red;
+    font-size: 14px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.btn-default {
+    color: color-yiq(#ced4da);
+   background:none;
+    border-color: #ced4da;
+}
+
+.hidden {display:none;}
+
+.btn-cursor {cursor:pointer;}
+
+table.table-custom td, table.table-custom th {padding-top:.1rem; padding-bottom:0; vertical-align: middle;}
+
+.alert {padding: 0.3rem 1.25rem}
+
+.btn-uploadfile {
+    position: relative;
+    width: 140px;
+    text-align: center;
+    height: 140px;
+    background: transparent;
+    color: #33b35a;
+    border: 1px solid #33b35a;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.btn-uploadfile .add {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.btn-uploadfile:hover {
+    background: #33b35a;
+    color: #ffffff;
+    border: 1px solid #33b35a;
+}
+
+.img-uploadfile {
+    position: absolute;
+    top: 0;
+    width: 140px;
+    text-align: center;
+    height: 140px;
+    background: #fff;
+    color: #008c80;
+    border: 1px solid #008c80;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.img-uploadfile img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.delete_avatar {
+    background: #f00;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 10px;
+}
+
+.product_price {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 12.5px;
+}
+
+.order-info-header{
+    height: 40px;
+}
+.order-info-line1{
+    height: 45px;
+}
+.order-info-line2{
+    height: 80px;
+}
+.title1{
+    width: 35%;
+}
+.title2{
+    width: 15%;
+}
+
+

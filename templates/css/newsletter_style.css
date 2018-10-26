@@ -1,0 +1,43 @@
+/* newsletter_style.css */
+.b-newsletter{
+}
+.b-newsletter .title{
+	height:40px;
+	line-height:40px;
+	vertical-align:middle;
+	white-space:nowrap;
+	font-size:16px;
+	text-transform:uppercase;
+	text-align:right;
+	padding:0;
+}
+.b-newsletter .button{
+	float:right;
+	height:38px;
+	background:url(../images/bt.png) no-repeat center;
+	background-color:transparent !important;
+	border:none !important;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:13px;
+	width:30px;
+}
+.b-newsletter .box{
+	height:40px;
+	background:#FFF;
+	border:1px solid #CCC;
+}
+.b-newsletter .inputbox{
+	width:73%;
+	height:35px;
+	background:#FFF;
+	color:#CCC;
+	font-style:italic;
+	float:left;
+	border:none !important;
+	outline:none;
+}
+.b-newsletter .inputbox:focus{
+	color:#333;
+	font-style:normal;
+}

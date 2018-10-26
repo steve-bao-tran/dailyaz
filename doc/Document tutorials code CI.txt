@@ -1,0 +1,34 @@
+B1.
+	Custom controller subfolder
+	Create file "application > core > MY_Load.php"
+B2. 
+	Copy templates online, insert to project
+B3.	
+
+B4. 
+
+/**********************************************************
+*
+*  DAILYAZ LOGIC
+*
+***********************************************************/
+
+1. Đăng hàng: => Đăng tất cả các ô
+(có chương trình khuyến mãi, ràng buộc các mẫu giống nhau trong cùng danh mục và cùng dòng)
+
+2. Người dùng: Đăng ký từ frontend và backend (pass mã hóa thư viện encrypt, hàm encode có salt, giải mã hàm decode)
+
+3. Email đăng ký nhận tin  (Lọc lấy email, làm marketing)
+
+4. Dự tính: 
+	- Phát triển mã giảm giá
+	- Khuyến mãi mua 2 tặng thêm 1sp
+	- Thêm khung bình luận của facebook
+	- Gửi email: Đặt hàng, đăng ký nhận tin, liên hệ
+	- Lọc sản phẩm, tìm khuyến mãi
+	- Sửa file bằng php view trong edit
+	- Web rtc
+5. 
+
+
+

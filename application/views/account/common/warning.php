@@ -1,0 +1,1 @@
+<div class="container"><div id="message"><ul class="warning"><li>Vui lòng đăng nhập</li></ul></div></div>

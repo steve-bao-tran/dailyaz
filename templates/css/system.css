@@ -1,0 +1,133 @@
+/* system.css */
+/* CSS Document */
+div#message{
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:5px;
+	}
+div#message ul{
+	padding:8px 5px 9px 40px;
+	margin:0;
+	list-style:none;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+}
+div#message ul li{
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+
+div#message .message{
+	background:#defcbe url(../images/system/info.png) no-repeat left;
+	color:#3f8221;
+	border-color:#4aad0e;
+}
+div#message .error{
+	background:#FFCACA url(../images/system/error.png) no-repeat left;
+	color:#FF0000;
+	border-color:#FF0000;
+}
+div#message .warning{
+	background:#ffd491 url(../images/system/warning.png) no-repeat left;
+	color:#ee6125;
+	border-color: #ee6125;
+}
+
+/* pagination */
+div.pagination{
+	clear:both;
+	text-align:center;
+	margin:5px 0 5px 0;
+	display:block !important;
+}
+div.pagination a, div.pagination span{ 
+	border:1px solid #999; 
+	padding:5px 9px;
+	margin-left:3px;
+	margin-right:3px;
+	margin-bottom:5px;
+	text-decoration:none;
+	background:#f5f5f5;
+	border-radius: 3px;
+	display:inline-block;
+	}
+div.pagination span{color:#999;}
+div.pagination a.ppage:hover{background:#666; color:#FFF;}
+div.pagination .active{
+	font-weight:bold;
+	background:#d0d0d0;
+	color:#FFF;
+}
+
+/* adminForm */
+table.adminForm{
+	width:auto;
+	}
+table.adminForm tr td{
+	padding:3px;
+	margin:0;
+	vertical-align:top;
+	}
+table.adminForm tr td.label{
+	text-align:right;
+	padding-right:10px;
+	background:#f3f6fc;
+	border-bottom:1px solid #CCDAF9;
+	border-right:1px solid #CCDAF9;
+	border-left:1px solid #f3f6fc;
+	border-top:1px solid #ffffff;
+	min-width:120px;
+	}
+table.adminForm tr.spacer td{
+	vertical-align:middle;
+	}
+table.adminForm tr.spacer td hr{
+	border:0;
+	border-top:1px dotted #9EA7F8;
+	}
+	
+/* site form */
+table.siteForm{
+	width:auto;
+	}
+table.siteForm tr td{
+	padding:3px;
+	margin:0;
+	vertical-align:top;
+	}
+table.siteForm tr td.label{
+	text-align:right;
+	padding-right:10px;
+	}
+/* Tooltips */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	z-index: 50;
+}
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../images/system/selector-arrow.png) no-repeat;
+}
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}
+.imglink{border:0;}
+.imglink:hover{
+	opacity:0.80;
+	moz-opacity:0.80;
+	filter:alpha(opacity=80);
+}

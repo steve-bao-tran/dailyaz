@@ -1,0 +1,65 @@
+/* mainmenustyle.css */
+.b-main-menu ul.lv1{
+	width:400px;
+	min-height:402px;
+}
+.b-main-menu ul.lv2{
+	margin-left:195px;
+	width:200px;
+	top:0;
+}
+.dropdown-menu > li > a{
+	white-space:normal;
+}
+.b-main-menu ul.nav > li > a{
+	padding-left:0;
+	padding-right:0;
+}
+.b-main-menu ul.nav > li > a > span{
+	border-right:2px solid #aeaeae;
+	padding:0 15px;
+}
+.b-main-menu ul.nav > li.last > a > span{
+	border-right:none;
+}
+.b-main-menu ul.lv1 > li > a{
+	padding-top:7px;
+	padding-bottom:7px;
+}
+#navbar{
+	padding-right:0;
+}
+.b-main-menu ul.lv1 li .banner{
+	position:absolute;
+	right:0;
+	top:0;
+	display:none;
+}
+.b-main-menu ul.lv1 li .banner0{
+	display:block;
+}
+.b-main-menu ul.lv1 li:hover .banner{
+	display:block;
+}
+
+@media (max-width: 640px) {
+	.b-main-menu ul.nav ul{
+		width:100% !important;
+		min-height:auto !important;
+		margin-left:0 !important;
+		position:static !important;
+		float:none !important;
+		background:none !important;
+		border:none !important;
+		box-shadow: 0 0 0 !important;
+	}
+	.b-main-menu ul.nav ul li{
+		padding-left:10px;
+	}
+	.b-main-menu ul.nav > li > a > span{
+		border-right: none;
+	}
+	.b-main-menu ul.lv1 li .banner{
+		display:none !important;
+	}
+}

@@ -69,12 +69,12 @@
 						    			<h3>Xem bản đồ</h3>
 						    			<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.322384009375!2d106.6855093154804!3d10.786601992314637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f2d81374683%3A0x8da8bb8f098d160f!2sAzibai!5e0!3m2!1sen!2s!4v1505190032542" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
 						    			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1954.3157458570904!2d109.00642134603098!3d11.578253616874909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1522125713344" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				    				</div>
+				    				</div>				    				
 
 				    				<div class="col-sm-6" style="padding-left:10px; padding-right:15px;">
 				    		    		<h3>Gửi email cho chúng tôi</h3>
-				    		    		<form name="frmContact" method="post" class="" enctype="multipart/form-data">
-					    			 		<div class="form-group">	    
+				    		    		<!-- <form name="frmContact" method="post" class="" enctype="multipart/form-data"> -->
+					    			 		<!-- <div class="form-group">	    
 												(<font color="#FF0000"><b>*</b></font>)&nbsp;&nbsp;Bắt buộc nhập dữ liệu			   
 					    					</div>
 
@@ -118,16 +118,17 @@
 										    <div class="form-group">
 											    <label class="control-label">
 											    	<font color="#FF0000"><b>*</b></font> Mã xác nhận</label>
-												<div class="row">
+												<div class="row"> -->
 												    <!-- <div class="col-sm-4" style="padding-left:15px;">
 														<img src="<?php echo base_url() . $imageCaptchaContact; ?>" width="151" height="34">
 												    </div> -->
-												    <div class="g-recaptcha" data-sitekey="6LeKIG0UAAAAAMZQrToeGBfz-HNap06MZXAN39Ix">
-												    </div>
+												<!-- <div class="g-recaptcha" data-sitekey="6LeKIG0UAAAAAMZQrToeGBfz-HNap06MZXAN39Ix"> -->
+												    <!-- </div> -->
 												    <!-- <div class="col-sm-8" style="padding-right:15px;">
 														<input type="text" name="captcha_contact" id="captcha_contact" class="inputcaptcha_form form-control" onfocus="ChangeStyle('captcha_contact', 1);" onblur="ChangeStyle('captcha_contact', 2);" style="border: 1px solid rgb(204, 204, 204);" placeholder="Nhập mã xác nhận" required>
 												    </div> -->
-												</div>
+												
+												<!-- </div>
 												<input type="hidden" id="captcha" name="captcha" value="ASIVHD">												
 											</div>	
 									    
@@ -136,8 +137,11 @@
 							    				<input type="reset" value="Nhập lại" class="btn btn-default">
 							    			</div>    	
 						    				
-						    		    </form>
-
+						    		    </form> -->
+										<form name="frmContact" method="post" class="" enctype="multipart/form-data">
+											<input type="file" name="images">
+											<button type="submit">GỦI</button>
+										</form>
 						    		</div>
 							    </div>
 								

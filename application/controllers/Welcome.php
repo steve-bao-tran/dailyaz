@@ -77,7 +77,7 @@ class Welcome extends CI_Controller {
 	}
 
     function contactus()
-    {
+    { 
         # Menu active
         $data['me_active'] = 'contact';
 
@@ -85,6 +85,42 @@ class Welcome extends CI_Controller {
             $user = $this->user_model->get('*', 'us_publish IS TRUE AND us_id = '. $this->session->userdata('sessionUser'));
             $data['user'] = $user;
         }
+
+        // list($width, $height, $type, $attr) = getimagesize("./fe6257278635d5ddb21aed07b677cf4c.gif");
+        // echo "Image width " . $width;
+        // echo "Image height " . $height;
+        // echo "Image type " . $type;
+        // echo "Attribute " . $attr;
+        // die;
+
+        $this->load->library('upload');
+        $configU['upload_path']          = 'media';
+        $configU['allowed_types']        = 'gif|jpg|png';
+        $configU['max_size']             = 500;
+        $configU['max_width']            = 1024;
+        $configU['max_height']           = 1024;           
+        $configU['encrypt_name'] = TRUE;             
+        $configU['max_size'] = MAXUPLOAD;#KB
+        //$this->load->library('upload', $config);       
+
+        $this->load->library('upload', $configU);
+        $this->upload->initialize($configU);        
+
+        if ( ! $this->upload->do_upload('images')) {
+            $error = array('error' => $this->upload->display_errors()); 
+        } else {
+            $data = array('upload_data' => $this->upload->data()); 
+            $this->load->library('image_lib');
+            $config['image_library']    = 'gd2';
+            $config['source_image']     = 'media/'. $this->upload->data('file_name');  
+            $config['create_thumb']     = TRUE;
+            $config['maintain_ratio']   = FALSE;
+            $config['width']            = 600;
+            $config['height']           = 600;   
+            $this->image_lib->initialize($config);
+            $this->image_lib->resize();
+            die('Thanh cong');           
+        }        
 
         if ($this->input->post('name_contact') && $this->input->post('name_contact') != '') {
             if (1) {
